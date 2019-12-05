@@ -1,7 +1,7 @@
 
 totalFuel = 0
 inputData = []
-with open('./Day1Part1Data.txt', 'r') as inputFile:
+with open('./Day1Data.txt', 'r') as inputFile:
     for inputDatum in inputFile:
         inputData.append(inputDatum.replace('\n', ''))
 
