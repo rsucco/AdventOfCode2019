@@ -5,7 +5,8 @@ def compileIntcode(intcodeProgram, noun, verb):
     # Set the noun and verb in the program
     intcodeProgram[1] = noun
     intcodeProgram[2] = verb
-
+    print(str(type(intcodeProgram)))
+    print(intcodeProgram)
     # Iterate through all the values in the opcode memory addresses
     for instructionAddress in range(0, len(intcodeProgram), 4):
         opcode = intcodeProgram[instructionAddress]
